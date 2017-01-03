@@ -37,7 +37,7 @@ public class OfficeTest {
     public void beginsWith() throws Exception {
         Office office = new Office("ANI", "Belfast, Northern Ireland", 100);
         ArrayList<Office> officeList = new ArrayList<>();
-        officeList.add(office);
+        officeList.add(office) ;
         officeList.add(new Office("ANI1", "Ireland", 1000));
         officeList.add(new Office("ANI2", "Belfast, Northern Ireland", 10000));
         officeList.add(new Office("BNI3", "US", 140));
